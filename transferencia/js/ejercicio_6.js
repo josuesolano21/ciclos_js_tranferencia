@@ -18,5 +18,5 @@ while (intento !== numero) {
 }
 console.log("Felicidades, el número era: " + numero);
 
-/* CVon la primer linea de codigo, la maquina elige aleatoreamente un número el cual será el que hay que adivinar y el while hace que se el codigo se repita las veces que sean necesarias hasta que el usuario adivine el número que escogío la maquina.
+/* Con la primer linea de codigo, la maquina elige aleatoreamente un número el cual será el que hay que adivinar y el while hace que se el codigo se repita las veces que sean necesarias hasta que el usuario adivine el número que escogío la maquina.
 Con ayuda de la IA, me mostró que utilizar el math.random ayuda a generar con mayor precisión un número aleatorio entre los números establecidos pero tiene un problema, y es que elige números DECIMALES. Por eso, se utiliza el math.floor, ya que hace que esos números decimales dejen de serlo quitando todo lo que hay después de la coma convirtiendolos en números enteros. */

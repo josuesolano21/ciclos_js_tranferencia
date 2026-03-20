@@ -3,19 +3,19 @@ Crear un programa que: muestre todos los números primos entre 1 y 50. Utilizar 
 condicionales para verificar qué números cumplen la condición de ser primos.*/
 
 for (let num = 1; num <= 50; num++) {
-  let primo = true;
-  if (num < 2) {
+    let primo = true;
+    if (num < 2) {
     primo = false;
-  }
-
-  for (let divisor = 2; divisor < num; divisor++) {
-    if (num % divisor === 0) {
-      primo = false; 
     }
-  }
-  if (primo) {
+
+for (let divisor = 2; divisor < num; divisor++) {
+    if (num % divisor === 0) {
+    primo = false; 
+    }
+}
+if (primo) {
     console.log(num);
-  }
+}
 }
 
 /* Ciclo FOR, repite el bloque de código varias veces, da un inicio, una condición y una actualización. 
@@ -37,4 +37,4 @@ yyyy
 if (primo) {
 console.log(num)
 }
-4. Incremento / Actualización: num++) y divisor++
+4. Incremento / Actualización: num++) y divisor++ */
